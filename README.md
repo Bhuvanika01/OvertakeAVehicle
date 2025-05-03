@@ -25,7 +25,7 @@ python start_replayinggg.py --recorder_filename "C:\Users\Sarath\Downloads\CARLA
 | `--host`              | IP of the CARLA server                       | `127.0.0.1`               |
 | `--port`              | TCP port to connect to CARLA                 | `2000`                    |
 | `--start`             | Start time of replay (in seconds)            | `0.0`                     |
-| `--duration`          | Duration of replay (in seconds)              | `0.0` (plays entire file) |
+| `--duration`          | Duration of replay (in seconds)              | `20.0` (plays entire file) |
 | `--recorder_filename` | Path to the `.log` recording file            | `"test1.log"`             |
 | `--camera`            | Follows the actor with this ID during replay | `0`                       |
 
