@@ -1,9 +1,4 @@
-# Overtake_A_Vehicle
-Here’s a complete and clear `README.md` for your script:
-
----
-
-# CARLA Replay Script
+# CARLA OVERTAKING SYSTEM
 
 This Python script allows you to replay recorded simulation sessions in [CARLA Simulator](https://carla.org/) using the built-in replay feature. It connects to a running CARLA server and replays a specified `.log` recording file.
 
@@ -34,11 +29,15 @@ python start_replayinggg.py --recorder_filename "C:\Users\Sarath\Downloads\CARLA
 | `--recorder_filename` | Path to the `.log` recording file            | `"test1.log"`             |
 | `--camera`            | Follows the actor with this ID during replay | `0`                       |
 
-> 💡 The `camera` argument allows you to attach the camera to a specific actor ID in the simulation. Use `0` to disable.
+> 💡 The `camera` argument allows you to attach the camera to a specific actor ID during the replay. Use `0` to disable.
 
 ## About `test1.log`
 
 The `test1.log` file is a simulation recording created using CARLA's built-in recording functionality. It stores all simulation events, vehicle movements, and environment changes during the recorded session. This file must be accessible by the script when replaying.
+
+## Output
+
+The visual output of the replay is recorded and saved as a video file named **`over_taking.mp4`** in the current directory.
 
 ## Notes
 
